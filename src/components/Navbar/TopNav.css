@@ -1,0 +1,30 @@
+.nav-item::after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 2px;
+  background: #3f85b2;
+  transition: 0.2s;
+}
+.nav-item:hover::after {
+  width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: larger;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-right: 2rem;
+}
+.navbar-light .navbar-brand {
+  margin-left: 3rem;
+  font-size: 1.8rem;
+  font-family: monospace;
+}
+
+#topNav{
+	border-bottom: 1px solid rgba(158, 155, 155, 0.548);
+	height: fit-content;
+}
+
