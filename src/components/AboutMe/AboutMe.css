@@ -1,0 +1,42 @@
+.aboutme-p{
+    font-size: 1.3rem;
+    align-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.intro-p-container{
+    width: 100%;
+    background-color: rgb(26, 26, 26);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+.frame{
+    object-fit: cover;
+    max-height: 800px;
+    width: 100%;
+}
+
+.parallax_bg{
+    position: abosolute;
+    left: 0;
+    top: 0;
+    z-index: -2;
+}
+
+
+
+.bg_frame{
+    max-height: 800px;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.bg_frame > img{
+    height: 100%;
+    width: 100%;
+    
+}
