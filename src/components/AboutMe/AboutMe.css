@@ -1,41 +1,73 @@
-.aboutme-p{
-    font-size: 1.3rem;
-    align-content: center;
-    padding-left: 10%;
-    padding-right: 10%;
+.aboutme-p {
+  font-size: 1.3rem;
+  align-content: center;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
-.intro-p-container{
-    width: 100%;
-    background-color: rgb(26, 26, 26);
-    padding-top: 60px;
-    padding-bottom: 60px;
-    padding-left: 12%;
-    padding-right: 12%;
+.intro-p-container {
+  width: 100%;
+  background-color: rgb(26, 26, 26);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 12%;
+  padding-right: 12%;
 }
-.frame{
-    object-fit: cover;
-    width: 100%;
-}
-
-.parallax_bg{
-    position: abosolute;
-    left: 0;
-    top: 0;
-    z-index: -2;
+.frame {
+  object-fit: cover;
+  width: 100%;
 }
 
-
-
-.bg_frame{
-    max-height: 800px;
-    width: 100%;
-    object-fit: cover;
-    overflow: hidden;
+.parallax_bg {
+  position: abosolute;
+  left: 0;
+  top: 0;
+  z-index: -2;
 }
 
-.bg_frame > img{
-    height: 100%;
-    width: 100%;
-    
+.bg_frame {
+  max-height: 800px;
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.bg_frame > img {
+  height: 100%;
+  width: 100%;
+}
+
+/* Icon Fade */
+.hvr-icon-fade {
+    color: aliceblue;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-icon-fade .hvr-icon {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: color;
+  transition-property: color;
+}
+.hvr-icon-fade:hover .linkedin-icon,
+.hvr-icon-fade:focus .linkedin-icon,
+.hvr-icon-fade:active .linkedin-icon {
+  color: rgb(110, 156, 255);
+}
+
+.hvr-icon-fade:hover .github-icon,
+.hvr-icon-fade:focus .github-icon,
+.hvr-icon-fade:active .github-icon{
+  color: rgb(111, 76, 236);
+}
+
+.hvr-icon-fade:hover .insta-icon,
+.hvr-icon-fade:focus .insta-icon,
+.hvr-icon-fade:active .insta-icon{
+  color: rgb(255, 104, 180);
 }

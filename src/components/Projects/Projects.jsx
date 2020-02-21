@@ -31,7 +31,7 @@ export default class Projects extends Component {
           </div>
 
           {/* Ezlearning ACA */}
-          <div className="row align-items-center justify-content-center mt-5">
+          <div className="row justify-content-center mt-5">
             <div className="col-sm-6 pr-md-4 text-center text-md-left pt-3 pl-3">
               <h2>
                 <div className="box purple"></div>EZ Learning Academy
@@ -101,9 +101,9 @@ export default class Projects extends Component {
           {/* end Ezlearning */}
 
           {/* SOO */}
-          <div className="row align-items-center justify-content-center">
-            <div class="col-sm-6">
-              <div class="row gutter-0">
+          <div className="row justify-content-center mt-5">
+            <div className="col-sm-6">
+              <div className="row gutter-0">
                 <div
                   className="col-md-12"
                   data-aos="fade-up"
@@ -187,7 +187,7 @@ export default class Projects extends Component {
           {/* End SOO */}
 
           {/* Stylelist */}
-          <div className="row align-items-center justify-content-center mt-5">
+          <div className="row justify-content-center mt-5">
             <div className="col-sm-6 pr-md-4 text-center text-md-left pt-3 pl-3">
               <h2>
                 <div className="box purple"></div> Stylelist
@@ -283,9 +283,9 @@ export default class Projects extends Component {
           {/* end Stylelist*/}
 
           {/* BGC*/}
-          <div className="row align-items-center justify-content-center">
-            <div class="col-sm-6">
-              <div class="row gutter-0">
+          <div className="row align-items-center justify-content-center mt-5">
+            <div className="col-sm-6">
+              <div className="row gutter-0">
                 <div
                   className="col-md-12"
                   data-aos="fade-up"
