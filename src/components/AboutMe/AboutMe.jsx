@@ -1,9 +1,7 @@
 import React, { Component } from "react";
 import "./AboutMe.css";
-import bg from "../../assets/img/land_scape_bg.jpg";
-import parallax_bg from "../../assets/img/bg_wo_person.png";
-import person from "../../assets/img/person2.png";
 import logo from "../../assets/img/logo3.png";
+import logo_svg from "../../assets/img/black_logo.svg";
 import { Parallax } from "react-scroll-parallax";
 import Typical from "react-typical";
 
@@ -12,8 +10,8 @@ export default class AboutMe extends Component {
     return (
       <div style={{ width: "100%" }}>
         <section>
-          <Parallax y={[20, -10]}>
-            <img className="parallax_bg frame" src={logo} />
+          <Parallax y={[-10, 10]}>
+            <img className="parallax_bg frame" src={logo_svg} />
           </Parallax>
         </section>
 
@@ -34,10 +32,8 @@ export default class AboutMe extends Component {
             700,
             "I am a ",
             500,
-            "I am a Developer 💻",
-            700,
             "I am a Developer 💻 & Designer ✒️",
-            700
+            1000
           ]}
           loop={3}
           wrapper="p"

@@ -1,0 +1,34 @@
+.project_section {
+  width: 700px;
+  border-bottom: 1px solid grey;
+}
+
+.contributors_box {
+    display: grid;
+    grid-template: "contributor contributor contributor";
+    /* grid-template: repeat(3, 1fr) / repeat(3, 1fr); */
+    /* gap: 10px 5px; */
+}
+
+.carousel-item > img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.batman-card-container{
+    height: 650px;
+    object-fit: cover;
+}
+
+.batman-card-containerr .carousel .slide{
+    height: inherit;
+}
+.carousel-inner{
+    height: inherit;
+}
+/* .contributor{
+    flex: 1 1 auto;
+  width: 100px; 
+  height: 50px; 
+} */
