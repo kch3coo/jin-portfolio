@@ -5,9 +5,12 @@
   padding-right: 10%;
 }
 
+#logo-section{
+  background-color: black;
+}
+
 .intro-p-container {
   width: 100%;
-  background-color: rgb(26, 26, 26);
   padding-top: 60px;
   padding-bottom: 60px;
   padding-left: 12%;
@@ -39,7 +42,7 @@
 
 /* Icon Fade */
 .hvr-icon-fade {
-    color: aliceblue;
+    color: rgb(26, 26, 26);
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);

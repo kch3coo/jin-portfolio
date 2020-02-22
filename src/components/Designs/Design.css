@@ -1,0 +1,41 @@
+.gallery_container {
+  display: grid;
+  grid-template: "design deisgn design";
+  /* grid-template: repeat(3, 1fr) / repeat(3, 1fr); */
+  /* gap: 10px 5px; */
+}
+
+/* .logo_frame {
+  height: 200px;
+  width: 200px;
+  border: 1px solid rgba(71, 71, 71, 0.445);
+}
+
+.poster_frame {
+  height: 400px;
+  width: 200px;
+}
+
+.long_logo_frame {
+  height: 200px;
+  width: 400px;
+} */
+
+.poster_frame > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.logo_frame > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.long_logo_frame > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+

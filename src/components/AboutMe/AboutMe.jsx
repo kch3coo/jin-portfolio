@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./AboutMe.css";
-import logo from "../../assets/img/logo3.png";
-import logo_svg from "../../assets/img/black_logo.svg";
+import logo_svg from "../../assets/img/white_logo.svg";
 import { Parallax } from "react-scroll-parallax";
 import Typical from "react-typical";
 
@@ -11,7 +10,7 @@ export default class AboutMe extends Component {
   render() {
     return (
       <div style={{ width: "100%" }}>
-        <section>
+        <section id="logo-section">
           <Parallax y={[-10, 10]}>
             <img className="parallax_bg frame" src={logo_svg} />
           </Parallax>
@@ -22,7 +21,7 @@ export default class AboutMe extends Component {
         </div> */}
 
         <section id="aboutme">
-          <div className="intro-p-container text-white">
+          <div className="intro-p-container">
             <div>
               <Typical
                 className="mt-2 self-intro-text"

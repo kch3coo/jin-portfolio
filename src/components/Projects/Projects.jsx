@@ -24,19 +24,17 @@ export default class Projects extends Component {
 
   render() {
     return (
-      <section className="bg-light pt-4 mt-4" id="projects">
+      <section className="pt-4 mt-4" id="projects">
         <div className="container">
           <div className="d-flex justify-content-center">
-            <h1 className="project_section">Projects</h1>
+            <h1 className="text-white project_section">Projects</h1>
           </div>
 
           {/* Ezlearning ACA */}
           <div className="row justify-content-center mt-5">
-            <div className="col-sm-6 pr-md-4 text-center text-md-left pt-3 pl-3">
-              <h2>
-                <div className="box purple"></div>EZ Learning Academy
-              </h2>
-              <div className="">
+            <div className="text-white col-sm-6 pr-md-4 text-center text-md-left pt-3 pl-3">
+              <h2>EZ Learning Academy</h2>
+              <div className="text-white-p">
                 {" "}
                 <p>
                   A freelance project for the company Easy Learning Academy to
@@ -131,11 +129,9 @@ export default class Projects extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-sm-6 pr-md-4 text-center text-md-left pt-3 pl-3">
-              <h2>
-                <div className="box purple"></div>Special Olympics Ontario
-              </h2>
-              <div className="">
+            <div className="text-white col-sm-6 pr-md-4 text-center text-md-left pt-3 pl-3">
+              <h2>Special Olympics Ontario</h2>
+              <div className="text-white-p">
                 {" "}
                 <p>
                   This project is developed alongside our partner from the
@@ -188,11 +184,9 @@ export default class Projects extends Component {
 
           {/* Stylelist */}
           <div className="row justify-content-center mt-5">
-            <div className="col-sm-6 pr-md-4 text-center text-md-left pt-3 pl-3">
-              <h2>
-                <div className="box purple"></div> Stylelist
-              </h2>
-              <div className="">
+            <div className="text-white col-sm-6 pr-md-4 text-center text-md-left pt-3 pl-3">
+              <h2>Stylelist</h2>
+              <div className="text-white-p">
                 {" "}
                 <p>
                   Second place winner for UofT Hacks VII 2020. Fashion has
@@ -293,7 +287,7 @@ export default class Projects extends Component {
                 >
                   <Card>
                     <div className="container batman-card-container">
-                      <Carousel style={{height:"inherit"}}>
+                      <Carousel style={{ height: "inherit" }}>
                         <Carousel.Item>
                           <img
                             className="d-block w-40"
@@ -344,11 +338,11 @@ export default class Projects extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-sm-6 pr-md-4 text-center text-md-left pt-3 pl-3">
+            <div className="text-white col-sm-6 pr-md-4 text-center text-md-left pt-3 pl-3">
               <h2>
-                <div className="box purple"></div>Batman Game Center
+               Batman Game Center
               </h2>
-              <div className="">
+              <div className="text-white-p">
                 {" "}
                 <p>
                   Collaborated with 3 other teammates through GitHub. We have
@@ -383,10 +377,7 @@ export default class Projects extends Component {
                 </a>
                 <a calssName="contributor" href="https://github.com/Misaiko">
                   <FaGithub /> Misaiko
-
-
                 </a>
-
               </div>
             </div>
           </div>

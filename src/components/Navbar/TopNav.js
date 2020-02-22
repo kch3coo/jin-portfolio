@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import "./TopNav.css";
-import logo from "../../assets/img/logo3.png";
+import logo from "../../assets/img/black_logo.svg";
 import { Link, animateScroll as scroll } from "react-scroll";
 export default class TopNavbar extends Component {
   render() {

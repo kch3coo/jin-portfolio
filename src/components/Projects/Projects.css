@@ -3,6 +3,12 @@
   border-bottom: 1px solid grey;
 }
 
+#projects{
+    background-color: black;
+}
+.text-white-p{
+    -webkit-text-fill-color: rgb(224, 224, 224);
+}
 .contributors_box {
     display: grid;
     grid-template: "contributor contributor contributor";
