@@ -16,6 +16,7 @@ export default class Footer extends Component {
   render() {
     return (
       <Nav
+        id="footer"
         sticky="bottom"
         style={{
           backgroundColor: "black"
