@@ -74,3 +74,9 @@
 .hvr-icon-fade:active .insta-icon{
   color: rgb(255, 104, 180);
 }
+
+.hvr-icon-fade:hover .weixin-icon,
+.hvr-icon-fade:focus .weixin-icon,
+.hvr-icon-fade:active .weixin-icon{
+  color: rgb(58, 228, 95);
+}
