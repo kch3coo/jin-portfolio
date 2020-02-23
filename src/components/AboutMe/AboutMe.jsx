@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import "./AboutMe.css";
 import logo_svg from "../../assets/img/white_logo.svg";
-import myself from "../../assets/img/design/myself.png";
+import myself from "../../assets/img/design/myself3.png";
+import myself2 from "../../assets/img/design/myself2.png";
 import { Parallax } from "react-scroll-parallax";
 import Typical from "react-typical";
 import { Carousel } from "react-bootstrap";
@@ -16,7 +17,7 @@ export default class AboutMe extends Component {
           <div className="container batman-card-container">
             <Carousel style={{ height: "inherit" }}>
               <Carousel.Item>
-                <Parallax x={[-10, 10]}>
+                <Parallax y={[-20, 20]}>
                   <img className="parallax_bg frame" src={logo_svg} />
                 </Parallax>
               </Carousel.Item>
