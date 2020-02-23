@@ -19,7 +19,8 @@ export default class Footer extends Component {
         id="footer"
         sticky="bottom"
         style={{
-          backgroundColor: "black"
+          backgroundColor: "black",
+          width: "100%"
         }}
       >
         <div className="container justify-content-center text-white">
@@ -43,19 +44,19 @@ export default class Footer extends Component {
               <h5> Connect</h5>
 
               <div>
-                <a className="hvr-icon-fade" href="https://github.com/kch3coo">
+                <a className="hvr-icon-fade col-md-3 col-sm-6 p-2" href="https://github.com/kch3coo">
                   <FaGithub className="github-icon" size="2em" />
                 </a>
 
                 <a
-                  className="ml-3 hvr-icon-fade"
+                  className="col-md-3 col-sm-6 p-2 hvr-icon-fade"
                   href="https://www.linkedin.com/in/mingjinlu"
                 >
                   <FaLinkedin className="linkedin-icon" size="2em" />
                 </a>
 
                 <a
-                  className="ml-3 hvr-icon-fade"
+                  className="col-md-3 col-sm-6 p-2 hvr-icon-fade"
                   href="https://www.instagram.com/kch3coo/"
                 >
                   <FaInstagram className="insta-icon" size="2em" />
@@ -74,7 +75,7 @@ export default class Footer extends Component {
                     </Popover>
                   }
                 >
-                  <a className="ml-3 hvr-icon-fade" href="">
+                  <a className="hvr-icon-fade col-md-3 col-sm-6 p-2" href="">
                     <FaWeixin className="weixin-icon" size="2em" />
                   </a>
                 </OverlayTrigger>
