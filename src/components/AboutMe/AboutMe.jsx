@@ -1,8 +1,10 @@
 import React, { Component } from "react";
 import "./AboutMe.css";
 import logo_svg from "../../assets/img/white_logo.svg";
+import myself from "../../assets/img/design/myself.png";
 import { Parallax } from "react-scroll-parallax";
 import Typical from "react-typical";
+import { Carousel } from "react-bootstrap";
 
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 
@@ -11,9 +13,20 @@ export default class AboutMe extends Component {
     return (
       <div style={{ width: "100%" }}>
         <section id="logo-section">
-          <Parallax y={[-10, 10]}>
-            <img className="parallax_bg frame" src={logo_svg} />
-          </Parallax>
+          <div className="container batman-card-container">
+            <Carousel style={{ height: "inherit" }}>
+              <Carousel.Item>
+                <Parallax x={[-10, 10]}>
+                  <img className="parallax_bg frame" src={logo_svg} />
+                </Parallax>
+              </Carousel.Item>
+              <Carousel.Item>
+                <div className="my-img-frame d-block" style={{maxHeight: "400px"}}>
+                  <img className="my-img" src={myself} alt="my_pic" />
+                </div>
+              </Carousel.Item>
+            </Carousel>
+          </div>
         </section>
 
         {/* <div>
@@ -58,15 +71,21 @@ export default class AboutMe extends Component {
               of three.
             </p>
             <div>
-              <a  className="hvr-icon-fade" href="https://github.com/kch3coo">
+              <a className="hvr-icon-fade" href="https://github.com/kch3coo">
                 <FaGithub className="github-icon" size="2em" />
               </a>
 
-              <a  className="ml-3 hvr-icon-fade" href="https://www.linkedin.com/in/mingjinlu">
+              <a
+                className="ml-3 hvr-icon-fade"
+                href="https://www.linkedin.com/in/mingjinlu"
+              >
                 <FaLinkedin className="linkedin-icon" size="2em" />
               </a>
 
-              <a  className="ml-3 hvr-icon-fade" href="https://www.instagram.com/kch3coo/">
+              <a
+                className="ml-3 hvr-icon-fade"
+                href="https://www.instagram.com/kch3coo/"
+              >
                 <FaInstagram className="insta-icon" size="2em" />
               </a>
             </div>

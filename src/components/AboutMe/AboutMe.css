@@ -5,7 +5,7 @@
   padding-right: 10%;
 }
 
-#logo-section{
+#logo-section {
   background-color: black;
 }
 
@@ -40,9 +40,17 @@
   width: 100%;
 }
 
+.my-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  left: 0;
+  bottom: 0;
+}
+
 /* Icon Fade */
 .hvr-icon-fade {
-    color: rgb(26, 26, 26);
+  color: rgb(26, 26, 26);
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -65,18 +73,18 @@
 
 .hvr-icon-fade:hover .github-icon,
 .hvr-icon-fade:focus .github-icon,
-.hvr-icon-fade:active .github-icon{
+.hvr-icon-fade:active .github-icon {
   color: rgb(111, 76, 236);
 }
 
 .hvr-icon-fade:hover .insta-icon,
 .hvr-icon-fade:focus .insta-icon,
-.hvr-icon-fade:active .insta-icon{
+.hvr-icon-fade:active .insta-icon {
   color: rgb(255, 104, 180);
 }
 
 .hvr-icon-fade:hover .weixin-icon,
 .hvr-icon-fade:focus .weixin-icon,
-.hvr-icon-fade:active .weixin-icon{
+.hvr-icon-fade:active .weixin-icon {
   color: rgb(58, 228, 95);
 }
