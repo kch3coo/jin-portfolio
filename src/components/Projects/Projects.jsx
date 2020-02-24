@@ -11,6 +11,7 @@ import batman1 from "../../assets/img/screenshots/batman1.jpg";
 import batman2 from "../../assets/img/screenshots/batman2.jpg";
 import batman3 from "../../assets/img/screenshots/batman3.jpg";
 import batman4 from "../../assets/img/screenshots/batman4.jpg";
+import batman_apk from "../../assets/downloads/batman_game_center.apk";
 import "./Projects.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -330,7 +331,7 @@ export default class Projects extends Component {
                       </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                      <a href="">
+                      <a href={batman_apk} download>
                         <h5>Download</h5>
                       </a>
                     </Card.Footer>

@@ -75,9 +75,9 @@ export default class Footer extends Component {
                     </Popover>
                   }
                 >
-                  <a className="hvr-icon-fade col-md-3 col-sm-6 p-2" href="">
+                  <button className="hvr-icon-fade col-md-3 col-sm-6 p-2" href="">
                     <FaWeixin className="weixin-icon" size="2em" />
-                  </a>
+                  </button>
                 </OverlayTrigger>
               </div>
             </Col>
