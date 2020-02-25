@@ -13,7 +13,7 @@
   display: grid;
   grid-gap: 10px;
   grid-template-columns: 230px 250px 230px 230px;
-  grid-template-rows: 120px 140px 140px 160px 140px 170px 220px;
+  grid-template-rows: 120px 140px 140px 160px 140px 180px 250px;
   grid-template-areas: "i1 i1 p1 l1" "i1 i1 p1 p2" "l2 ll1 ll1 p2" "l3 i2 i2 p3" "p4 i2 i2 p3" "p4 l4 i3 i3" "ll2 ll2 i3 i3";
 }
 
