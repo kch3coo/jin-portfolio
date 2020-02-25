@@ -42,7 +42,7 @@ export default class Projects extends Component {
                   develope its static landing page.
                 </p>
                 <p>
-                  Task: My main tasks were to design all the web wireframes that
+                  Tasks: My main tasks were to design all the web wireframes that
                   satisfy the client’s standard, and begin front-end production.
                 </p>
                 <p>
@@ -144,7 +144,7 @@ export default class Projects extends Component {
                   and performance now can be heard and seen more often.
                 </p>
                 <p>
-                  My tasks: Understand the partner's needs. Organize priorities
+                  Tasks: Understand the partner's needs. Organize priorities
                   of each deliverable graphic designer and front-end developer.
                 </p>
                 <p>
@@ -197,7 +197,7 @@ export default class Projects extends Component {
                   for their daily outfits.
                 </p>
                 <p>
-                  Task: Design the overall outlook of the website, all graphic
+                  Tasks: Design the overall outlook of the website, all graphic
                   related works including poster, icons, and logo. Data scraping
                   using UiPath. React frontend development.
                 </p>
@@ -353,7 +353,7 @@ export default class Projects extends Component {
                   user's device.
                 </p>
                 <p>
-                  My tasks: Building all the layouts, designing the structure of
+                  Tasks: Building all the layouts, designing the structure of
                   our project, and implementing the scoring systems and gesture
                   detectors..
                 </p>
