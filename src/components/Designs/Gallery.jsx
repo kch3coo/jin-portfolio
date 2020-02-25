@@ -24,7 +24,7 @@ export default class Gallery extends Component {
     return (
       <div className="grid-container">
         <div className="i1 overlay-frame">
-          <img className="design-frame" src={i1} alt="image" />
+          <img className="design-frame" src={i1} alt="icon" />
           <div class="overlay text-white">
             This image was taken for UTADA booklet design.
           </div>
@@ -51,13 +51,13 @@ export default class Gallery extends Component {
           </div>
         </div>
         <div className="ll1 overlay-frame">
-          <img className="design-frame" src={ll1} />
+          <img className="design-frame " src={ll1} alt="long logo"/>
           <div class="overlay text-white">
             Designed my own logo in 2020 using Adobe Illustrator
           </div>
         </div>
         <div className="l2 overlay-frame">
-          <img className="design-frame" src={l2} />
+          <img className="design-frame " src={l2} alt="logo"/>
           <div class="overlay text-white">
             UTADA logo edited with Adobe Illustrator, the logo is masked with an
             image of forest, mixing the combination of nature and technology
@@ -65,28 +65,28 @@ export default class Gallery extends Component {
           </div>
         </div>
         <div className="l3 overlay-frame">
-          <img className="design-frame" src={l3} />
+          <img className="design-frame " src={l3} alt="logo"/>
           <div class="overlay text-white">
             Logo of Stylelist, designed with Adobe Illustrator during UofTHack
             VII.
           </div>
         </div>
-        <div className="i2 overlay-frame">
-          <img className="design-frame" src={i2} alt="icon" />
+        <div className="i2 overlay-frame" alt="image">
+          <img className="design-frame " src={i2} alt="icon" />
           <div class="overlay text-white">
             Victoria College (my college) at UofT, this photo was used in UTADA
             2019 booklet design.
           </div>
         </div>
         <div className="p3 overlay-frame">
-          <img className="design-frame" src={p3} alt="poster" />
+          <img className="design-frame " src={p3} alt="poster" />
           <div class="overlay text-white">
             The cover for UTADA 2019 booklet. Created by Adobe Illustrator and
             Photoshop.
           </div>
         </div>
         <div className="p4 overlay-frame">
-          <img className="design-frame" src={p4} alt="poster" />
+          <img className="design-frame " src={p4} alt="poster" />
           <div class="overlay text-white">
             Final poster for a product design course CSC318 in UofT. Eventac is
             a product we designed using the waterfall design process with
@@ -94,7 +94,7 @@ export default class Gallery extends Component {
           </div>
         </div>
         <div className="ll2 overlay-frame">
-          <img className="design-frame" src={ll2} alt="long-logo" />
+          <img className="design-frame " src={ll2} alt="long-logo" />
           <div class="overlay text-white">
             A logo designed for UTADA Internal Case Competition in September
             2019, our product is UTOS, a web application that tries to bridge
@@ -102,14 +102,14 @@ export default class Gallery extends Component {
           </div>
         </div>
         <div className="i3 overlay-frame">
-          <img className="design-frame" src={i3} alt="icon" />
+          <img className="design-frame " src={i3} alt="icon" />
           <div class="overlay text-white">
             Sidney Smith Hall, photo taken in 2019 and it is used in UTADA 2019
             booklet to introduce the variety of study spaces at UofT.
           </div>
         </div>
         <div className="l4 overlay-frame">
-          <img className="design-frame" src={l4} alt="logo" />
+          <img className="design-frame " src={l4} alt="logo" />
           <div class="overlay text-white">
             Poster of the WeChat application we created during the summer of
             2019. This is a food map that displays local delicacy around Toronto

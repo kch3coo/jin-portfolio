@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 
 import Gallery from "./Gallery.jsx";
+// import FlexGallery from "./FlexGallery.jsx";
 
 import "./Design.css";
 
@@ -21,7 +22,7 @@ export default class Designs extends Component {
             </div>
 
           
-         
+         {/* <FlexGallery  /> */}
         </div>
       </section>
     );
