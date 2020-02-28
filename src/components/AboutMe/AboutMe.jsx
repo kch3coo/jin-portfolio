@@ -17,9 +17,9 @@ export default class AboutMe extends Component {
           <div className="container batman-card-container">
             <Carousel style={{ height: "inherit" }}>
               <Carousel.Item>
-                <Parallax y={[-20, 20]}>
+                {/* <Parallax y={[-20, 20]}> */}
                   <img className="parallax_bg frame" src={logo_svg} />
-                </Parallax>
+                {/* </Parallax> */}
               </Carousel.Item>
               <Carousel.Item>
                 <div className="my-img-frame d-block" style={{maxHeight: "400px"}}>
