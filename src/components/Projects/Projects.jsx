@@ -12,6 +12,11 @@ import batman2 from "../../assets/img/screenshots/batman2.jpg";
 import batman3 from "../../assets/img/screenshots/batman3.jpg";
 import batman4 from "../../assets/img/screenshots/batman4.jpg";
 import batman_apk from "../../assets/downloads/batman_game_center.apk";
+import pm_remaster1 from "../../assets/img/screenshots/pm-remaster1.png";
+import pm_remaster2 from "../../assets/img/screenshots/pm-remaster2.png";
+import pm_remaster3 from "../../assets/img/screenshots/pm-remaster3.png";
+import pm_remaster4 from "../../assets/img/screenshots/pm-remaster4.png";
+
 import "./Projects.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -42,8 +47,9 @@ export default class Projects extends Component {
                   develope its static landing page.
                 </p>
                 <p>
-                  Tasks: My main tasks were to design all the web wireframes that
-                  satisfy the client’s standard, and begin front-end production.
+                  My Tasks: My main My Tasks were to design all the web
+                  wireframes that satisfy the client’s standard, and begin
+                  front-end production.
                 </p>
                 <p>
                   {" "}
@@ -88,7 +94,7 @@ export default class Projects extends Component {
                       </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                      <a href="http://ezlearningaca.com/">
+                      <a className="p-1" href="http://ezlearningaca.com/">
                         <h5>Navigate</h5>
                       </a>
                     </Card.Footer>
@@ -122,7 +128,7 @@ export default class Projects extends Component {
                       </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                      <a href="http://results.sooinc.ca/">
+                      <a className="p-1" href="http://results.sooinc.ca/">
                         <h5>Navigate</h5>
                       </a>
                     </Card.Footer>
@@ -144,7 +150,7 @@ export default class Projects extends Component {
                   and performance now can be heard and seen more often.
                 </p>
                 <p>
-                  Tasks: Understand the partner's needs. Organize priorities
+                  My Tasks: Understand the partner's needs. Organize priorities
                   of each deliverable graphic designer and front-end developer.
                 </p>
                 <p>
@@ -197,9 +203,9 @@ export default class Projects extends Component {
                   for their daily outfits.
                 </p>
                 <p>
-                  Tasks: Design the overall outlook of the website, all graphic
-                  related works including poster, icons, and logo. Data scraping
-                  using UiPath. React frontend development.
+                  My Tasks: Design the overall outlook of the website, all
+                  graphic related works including poster, icons, and logo. Data
+                  scraping using UiPath. React frontend development.
                 </p>
                 <p>
                   {" "}
@@ -266,7 +272,7 @@ export default class Projects extends Component {
                       </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                      <a href="https://github.com/tinally/stylelist/">
+                      <a className="p-1" href="https://github.com/tinally/stylelist/">
                         <h5>Source Code</h5>
                       </a>
                     </Card.Footer>
@@ -331,7 +337,7 @@ export default class Projects extends Component {
                       </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                      <a href={batman_apk} download>
+                      <a className="p-1" href={batman_apk} download>
                         <h5>Download</h5>
                       </a>
                     </Card.Footer>
@@ -340,9 +346,7 @@ export default class Projects extends Component {
               </div>
             </div>
             <div className="text-white col-sm-6 pr-md-4 text-center text-md-left pt-3 pl-3">
-              <h2>
-               Batman Game Center
-              </h2>
+              <h2>Batman Game Center</h2>
               <div className="text-white-p">
                 {" "}
                 <p>
@@ -353,7 +357,7 @@ export default class Projects extends Component {
                   user's device.
                 </p>
                 <p>
-                  Tasks: Building all the layouts, designing the structure of
+                  My Tasks: Building all the layouts, designing the structure of
                   our project, and implementing the scoring systems and gesture
                   detectors..
                 </p>
@@ -384,7 +388,102 @@ export default class Projects extends Component {
           </div>
           {/* End SOO */}
 
-          
+          {/* PM-REMASTER */}
+          <div className="row justify-content-center mt-5">
+            <div className="text-white col-sm-6 pr-md-4 text-center text-md-left pt-3 pl-3">
+              <h2>PM-remaster</h2>
+              <div className="text-white-p">
+                {" "}
+                <p>
+                  Developed an interactive project management system web
+                  application that utilized the MERN (MongoDB, Express JS, React
+                  JS and Node JS) stack development. By using AJAX technology,
+                  and interactive front-end, we are able to reduce the
+                  difficulty and increase the efficiency of project management
+                  while making the process interactive and fun. Project managers
+                  can create teams, and assign My Tasks to project contributors
+                  and look at the project status in a simple way.
+                </p>
+                <p>
+                  My Tasks: Graphic design, Front-end Development, design and
+                  implementation of RESTful APIs, design the entire project
+                  structure.
+                </p>
+                <p>
+                  {" "}
+                  Challenges: Trying to come up with an innovative and efficient
+                  way of project management while making the process interactive
+                  and fun. Designing and implementing RESTful APIs that
+                  represent the project management system
+                </p>
+                <h5>Contributors: </h5>
+              </div>
+              <div className="contributors_box">
+                <a calssName="contributor " href="https://github.com/kch3coo">
+                  <FaGithub /> kch3coo
+                </a>
+                <a calssName="contributor" href="https://github.com/NivedithaK">
+                  <FaGithub /> NivedithaK
+                </a>
+                <a
+                  calssName="contributor"
+                  href="https://github.com/kevinleung987"
+                >
+                  <FaGithub /> kevinleung987{" "}
+                </a>
+                <a calssName="contributor" href="https://github.com/tinally">
+                  <FaGithub /> tinally{" "}
+                </a>
+              </div>
+            </div>
+            <div className="col-sm-6">
+              <div className="row gutter-0">
+                <div
+                  className="col-md-12"
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="top-center"
+                >
+                  <Card>
+                    <div className="container card-container">
+                      <Carousel>
+                        <Carousel.Item>
+                          <img src={pm_remaster1} alt="Stylelist" />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                          <img src={pm_remaster2} alt="Stylelist" />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                          <img src={pm_remaster3} alt="Third slide" />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                          <img src={pm_remaster4} alt="Third slide" />
+                        </Carousel.Item>
+                      </Carousel>
+                    </div>
+
+                    <Card.Body>
+                      <Card.Title>PM-remaster</Card.Title>
+                      <Card.Text>
+                        <p>
+                          Used Axios JS for HTTP requests, React Bootstrap
+                          library for some of the frontend interfaces and
+                          deployed the project on Heroku. This allows project
+                          managers to have more ways to create, manage and keep
+                          track of their project status.
+                        </p>
+                      </Card.Text>
+                    </Card.Body>
+                    <Card.Footer>
+                      <a className="p-1" href="https://pm-remaster.herokuapp.com/">
+                        <h5>Navigate</h5>
+                      </a>
+                    </Card.Footer>
+                  </Card>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* end PM-REMASTER*/}
 
           <br />
           <br />
