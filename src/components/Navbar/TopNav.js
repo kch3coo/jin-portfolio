@@ -19,11 +19,12 @@ export default class TopNavbar extends Component {
           <span className="ml-2 mt-2">Lu Ming Jin</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse classname="float-right" id="basic-navbar-nav">
+        <Navbar.Collapse className="float-right" id="basic-navbar-nav">
           <Nav className="ml-auto">
-            <NavDropdown title="About me" id="basic-nav-dropdown">
-              <NavDropdown.Item>
+            {/* <NavDropdown className="nav-item nav-link" title="About me" id="basic-nav-dropdown" style={{marginRight: 0}}>
+              <NavDropdown.Item >
                 <Link
+                
                   activeClass="active"
                   to="aboutme"
                   spy={true}
@@ -38,9 +39,22 @@ export default class TopNavbar extends Component {
               <NavDropdown.Item href={resume} download>
                 DownloadResume
               </NavDropdown.Item>
-            </NavDropdown>
+            </NavDropdown> */}
+            <Link
+            className="nav-item nav-link"
+              activeClass="active"
+              to="aboutme"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+              onSetActive={this.handleSetActive}
+            >
+              Intro
+            </Link>
 
             <Link
+            className="nav-item nav-link"
               activeClass="active"
               to="projects"
               spy={true}
@@ -49,10 +63,11 @@ export default class TopNavbar extends Component {
               duration={500}
               onSetActive={this.handleSetActive}
             >
-              <Nav.Link className="nav-item">Projects</Nav.Link>
+              Projects
             </Link>
 
             <Link
+            className="nav-item nav-link"
               activeClass="active"
               to="designs"
               spy={true}
@@ -61,10 +76,11 @@ export default class TopNavbar extends Component {
               duration={900}
               onSetActive={this.handleSetActive}
             >
-              <Nav.Link className="nav-item">Designs</Nav.Link>
+             Designs
             </Link>
 
             <Link
+              className="nav-item nav-link"
               activeClass="active"
               to="info"
               spy={true}
@@ -73,7 +89,7 @@ export default class TopNavbar extends Component {
               duration={500}
               onSetActive={this.handleSetActive}
             >
-              <Nav.Link className="nav-item">Contact Info</Nav.Link>
+              Contact Info
             </Link>
           </Nav>
         </Navbar.Collapse>

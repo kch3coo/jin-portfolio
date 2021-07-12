@@ -3,7 +3,6 @@ import "./AboutMe.css";
 import logo_svg from "../../assets/img/white_logo.svg";
 import myself from "../../assets/img/design/myself3.png";
 import myself2 from "../../assets/img/design/myself2.png";
-import { Parallax } from "react-scroll-parallax";
 import Typical from "react-typical";
 import { Carousel } from "react-bootstrap";
 
@@ -57,7 +56,7 @@ export default class AboutMe extends Component {
             </div>
             <p className="aboutme-p p-2 mt-2">
               Welcome to my site! I’m a software developer, graphic designer,
-              cat lover, and a third-year Computer Science Specialist student at
+              cat lover, and a fourth-year Computer Science Specialist student at
               the University of Toronto. Ok, that last part is a little bit
               dull, but anyways, my main focus is in software development. For
               the past year, I had developed landing page websites for Easy

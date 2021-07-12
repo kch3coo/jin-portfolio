@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Card, Button, Carousel } from "react-bootstrap";
+import { Card, Carousel } from "react-bootstrap";
 import { FaGithub } from "react-icons/fa";
 
 import ez_landing from "../../assets/img/screenshots/ezlearning_landing.png";
@@ -35,6 +35,255 @@ export default class Projects extends Component {
           <div className="d-flex justify-content-center">
             <h1 className="text-white project_section">Projects</h1>
           </div>
+
+          {/* Aitchl Ltd */}
+          <div className="row justify-content-center mt-5">
+            <div className="col-sm-6">
+              <div className="row gutter-0">
+                <div
+                  className="col-md-12"
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="top-center"
+                >
+                  <Card>
+                    <div className="container card-container">
+                      <Carousel>
+                        <Carousel.Item>
+                          <img src={"/screenshots/aitchl1.png"} alt="" />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                          <img src={"/screenshots/aitchl2.png"} alt="" />
+                        </Carousel.Item>
+                      </Carousel>
+                    </div>
+
+                    <Card.Body>
+                      <Card.Title>Aitchl Ltd</Card.Title>
+                      <Card.Text>
+                      The design is created by Xuan using Adobe XD. The website is developed using JavaScript, HTML, Saas, AOS framework and Bootstrap framework.
+                      </Card.Text>
+                    </Card.Body>
+                    <Card.Footer>
+                      <a className="p-1" href="https://aitchl.com/">
+                        <h5>Navigate</h5>
+                      </a>
+                    </Card.Footer>
+                  </Card>
+                </div>
+              </div>
+            </div>
+            <div className="text-white col-sm-6 pr-md-4 text-center text-md-left pt-3 pl-3">
+              <h2>Aitchl Ltd</h2>
+              <div className="text-white-p">
+                {" "}
+                <p>
+                Lead a small team of four from Amind Studio to design and develop a professional landing page for Aitchl Ltd.
+                </p>
+                <p>
+                My Tasks: My main tasks were to communicate with the customer and translate his requirements into detailed instructions. I oversee the design and the entire project construction. I also need to assist team members when they don't know how to build some parts of the website.
+                </p>
+                <p>
+                  {" "}
+                  The customer has very strict requirements on optimization across different browsers and having SEO enhancement. We had trouble optimizing some layouts on Safari and we need to incorporate SEO along the way. Also, we need to add a language translation function to the website, and it is a new challenge for us.
+                </p>
+                <h5>Contributors: </h5>
+              </div>
+              <div className="contributors_box">
+                <a calssName="contributor " href="https://github.com/kch3coo">
+                  <FaGithub /> kch3coo
+                </a>
+                <a calssName="contributor" href="https://github.com/rainyuxuan">
+                  <FaGithub /> rainyuxuan
+                </a>
+                <a
+                  calssName="contributor"
+                  href="https://github.com/themarkone"
+                >
+                  <FaGithub /> themarkone{" "}
+                </a>
+                <a
+                  calssName="contributor"
+                  href="https://github.com/swx1037307095"
+                >
+                  <FaGithub /> swx1037307095{" "}
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* Aitchl Ltd */}
+
+          {/* 2020 Non-official UofT Virtual Clubfair*/}
+          <div className="row justify-content-center mt-5">
+            <div className="text-white col-sm-6 pr-md-4 text-center text-md-left pt-3 pl-3">
+              <h2>2020 Non-official UofT Virtual Clubfair</h2>
+              <div className="text-white-p">
+                {" "}
+                <p>
+                  This project is for a non-official UofT virtual club fair.
+                  During the COVID-19 pandemic, the UofT club fair that usually
+                  happens in September was cancelled. Many student organizations
+                  need some form of marketing and platform to attract new
+                  members so this event is hosted. AMIND developed a web
+                  platform for this event.
+                </p>
+                <p>
+                  My Tasks: My main tasks were to design the entire website,
+                  understand what data needs to be presented for each club and
+                  how to properly display them.
+                </p>
+                <p>
+                  {" "}
+                  Challenges: There are 37 clubs to manage and it is tedious to
+                  create a webpage for each club using plain javascript and
+                  HTML. Our solution is to use HandlebarsJS to generate each
+                  subpage based on the data of each club.{" "}
+                </p>
+                <h5>Contributors: </h5>
+              </div>
+              <div className="contributors_box">
+                <a calssName="contributor " href="https://github.com/kch3coo">
+                  <FaGithub /> kch3coo
+                </a>
+                <a calssName="contributor" href="https://github.com/yty25">
+                  <FaGithub /> yty25
+                </a>
+                <a
+                  calssName="contributor"
+                  href="https://github.com/alexmai123"
+                >
+                  <FaGithub /> alexmai123{" "}
+                </a>
+                <a
+                  calssName="contributor"
+                  href="https://github.com/rainyuxuan"
+                >
+                  <FaGithub /> rainyuxuan{" "}
+                </a>
+              
+              </div>
+            </div>
+            <div className="col-sm-6">
+              <div className="row gutter-0">
+                <div
+                  className="col-md-12"
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="top-center"
+                >
+                  <Card>
+                  <div className="container card-container">
+                      <Carousel>
+                      <Carousel.Item>
+                          <img src={"/screenshots/ut_clubfair1.png"} alt="" />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                          <img src={"/screenshots/ut_clubfair2.png"} alt="" />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                          <img src={"/screenshots/ut_clubfair3.png"} alt="" />
+                        </Carousel.Item>
+                      </Carousel>
+                    </div>
+                    <Card.Body>
+                      <Card.Title>2020 Non-official UofT Virtual Clubfair Web Platform</Card.Title>
+                      <Card.Text>
+                        <p>
+                        Used JSON Schema to formalize data from different clubs, store all data into a JSON file and used Boostrap and Handlebars.js to display this information onto the web platform.
+                        </p>
+                      </Card.Text>
+                    </Card.Body>
+                    <Card.Footer>
+                      <a className="p-1" href="https://www.uoftclubfair.com/">
+                        <h5>Navigate</h5>
+                      </a>
+                    </Card.Footer>
+                  </Card>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* end 2020 Non-official UofT Virtual Clubfair */}
+
+          {/* Easy Education */}
+          <div className="row justify-content-center mt-5">
+            <div className="col-sm-6">
+              <div className="row gutter-0">
+                <div
+                  className="col-md-12"
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="top-center"
+                >
+                  <Card>
+                    <div className="container card-container">
+                      <Carousel>
+                        <Carousel.Item>
+                          <img src={"/screenshots/ez4edu.png"} alt="" />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                          <img src={"/screenshots/ez4edu1.png"} alt="" />
+                        </Carousel.Item>
+                      </Carousel>
+                    </div>
+
+                    <Card.Body>
+                      <Card.Title>Easy Education</Card.Title>
+                      <Card.Text>
+                        JavaScript, HTML, aos.js, and Bootstrap to develop the
+                        landing page. Connected the website with the customer's
+                        Shopify products.
+                      </Card.Text>
+                    </Card.Body>
+                    <Card.Footer>
+                      <a className="p-1" href="https://ez4edu.com/">
+                        <h5>Navigate</h5>
+                      </a>
+                    </Card.Footer>
+                  </Card>
+                </div>
+              </div>
+            </div>
+            <div className="text-white col-sm-6 pr-md-4 text-center text-md-left pt-3 pl-3">
+              <h2>Easy Education</h2>
+              <div className="text-white-p">
+                {" "}
+                <p>
+                  This project comes from the same customer that asked me to
+                  construct EZ Learning Academy. Both of these websites are for
+                  Easy Group and Easy Education is one of their largest product.
+                  With the trust of the returning customer, I and two others
+                  from AMIND collaborate with the design team from Easy Group to
+                  construct a new landing page for Easy Education.
+                </p>
+                <p>
+                  My Tasks: My main tasks were to provide professional opinions
+                  on landing page design, overseeing the development of the
+                  website, and making sure the schedule is on track.
+                </p>
+                <p>
+                  {" "}
+                  Challenges: In some particular parts of the website, the
+                  customer wants a completely different view when the screen
+                  size is different. The challenge is to utilize HTML and CSS to
+                  achieve the desired outcome.
+                </p>
+                <h5>Contributors: </h5>
+              </div>
+              <div className="contributors_box">
+                <a calssName="contributor " href="https://github.com/kch3coo">
+                  <FaGithub /> kch3coo
+                </a>
+                <a calssName="contributor" href="https://github.com/yty25">
+                  <FaGithub /> yty25
+                </a>
+                <a
+                  calssName="contributor"
+                  href="https://github.com/alexmai123"
+                >
+                  <FaGithub /> alexmai123{" "}
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* Easy Education */}
 
           {/* Ezlearning ACA */}
           <div className="row justify-content-center mt-5">
@@ -119,12 +368,10 @@ export default class Projects extends Component {
                     <Card.Body>
                       <Card.Title>Special Olympics Ontario</Card.Title>
                       <Card.Text>
-                        <p>
-                          Used Python Flask framework to build our backend
-                          management system, Microsoft SQL Server Management
-                          Studio 18 for our database and React framework to
-                          display our interfaces.
-                        </p>
+                        Used Python Flask framework to build our backend
+                        management system, Microsoft SQL Server Management
+                        Studio 18 for our database and React framework to
+                        display our interfaces.
                       </Card.Text>
                     </Card.Body>
                     <Card.Footer>
@@ -259,20 +506,20 @@ export default class Projects extends Component {
                     <Card.Body>
                       <Card.Title>Stylelist</Card.Title>
                       <Card.Text>
-                        <p>
-                          Used a web scraper to get the clothing items
-                          information from Nordstrom.ca and then feed these data
-                          into the backend. Our backend is a Machine Learning
-                          model trained on the bank of keywords and it provides
-                          next items after a swipe based on the cosine
-                          similarities between the next items and the liked
-                          items. The interaction with the clothing items and the
-                          swipes is on our React frontend.
-                        </p>
+                        Used a web scraper to get the clothing items information
+                        from Nordstrom.ca and then feed these data into the
+                        backend. Our backend is a Machine Learning model trained
+                        on the bank of keywords and it provides next items after
+                        a swipe based on the cosine similarities between the
+                        next items and the liked items. The interaction with the
+                        clothing items and the swipes is on our React frontend.
                       </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                      <a className="p-1" href="https://github.com/tinally/stylelist/">
+                      <a
+                        className="p-1"
+                        href="https://github.com/tinally/stylelist/"
+                      >
                         <h5>Source Code</h5>
                       </a>
                     </Card.Footer>
@@ -328,12 +575,10 @@ export default class Projects extends Component {
                     <Card.Body>
                       <Card.Title>Batman Game Center</Card.Title>
                       <Card.Text>
-                        <p>
-                          An Android application containing three games:
-                          block-puzzle-game (2048), puzzle-solving game (Sliding
-                          Tiles) and Sudoku. Implemented with Java and XML
-                          layout on Andriod Studio.
-                        </p>
+                        An Android application containing three games:
+                        block-puzzle-game (2048), puzzle-solving game (Sliding
+                        Tiles) and Sudoku. Implemented with Java and XML layout
+                        on Andriod Studio.
                       </Card.Text>
                     </Card.Body>
                     <Card.Footer>
@@ -464,17 +709,18 @@ export default class Projects extends Component {
                     <Card.Body>
                       <Card.Title>PM-remaster</Card.Title>
                       <Card.Text>
-                        <p>
-                          Used Axios JS for HTTP requests, React Bootstrap
-                          library for some of the frontend interfaces and
-                          deployed the project on Heroku. This allows project
-                          managers to have more ways to create, manage and keep
-                          track of their project status.
-                        </p>
+                        Used Axios JS for HTTP requests, React Bootstrap library
+                        for some of the frontend interfaces and deployed the
+                        project on Heroku. This allows project managers to have
+                        more ways to create, manage and keep track of their
+                        project status.
                       </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                      <a className="p-1" href="https://pm-remaster.herokuapp.com/">
+                      <a
+                        className="p-1"
+                        href="https://pm-remaster.herokuapp.com/"
+                      >
                         <h5>Navigate</h5>
                       </a>
                     </Card.Footer>
