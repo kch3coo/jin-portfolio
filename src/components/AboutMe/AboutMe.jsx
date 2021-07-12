@@ -55,20 +55,7 @@ export default class AboutMe extends Component {
               />
             </div>
             <p className="aboutme-p p-2 mt-2">
-              Welcome to my site! I’m a software developer, graphic designer,
-              cat lover, and a fourth-year Computer Science Specialist student at
-              the University of Toronto. Ok, that last part is a little bit
-              dull, but anyways, my main focus is in software development. For
-              the past year, I had developed landing page websites for Easy
-              Learning Academy, and a search engine for Special Olympics
-              Ontario. Recently, I am working on a cross-platform mobile
-              application “Linkus”, and a web project “UTOS”. Besides coding,
-              arts and design is a huge part of me and I have designed posters,
-              logos, and UI/UX layouts using Adobe Softwares. As my experience
-              of graphic design and software development enhances, I see how
-              these two correlate with each other. One plus one is more than
-              two, design and developing projects always give me the happiness
-              of three.
+              Welcome to my site! I’m a software developer, graphic designer, cat lover, and a fourth-year Computer Science Specialist student at the University of Toronto. Ok, that last part is a little bit dull, but anyways, my main focus is on software development. For the past year, I have worked in Veeva Systems as a Software Engineer Intern. I was in the Rendition team tackling issues with Veeva Web2PDF and OCR image recognition function. Recently, I am trying to start my own business AMIND Studio to help customers to build their company band. Besides coding, arts and design is a huge part of me and I have designed posters, logos, and UI/UX layouts using Adobe software. As my experience of graphic design and software development enhances, I see how these two correlate with each other. One plus one is more than two, design and developing projects always give me the happiness of three.
             </p>
             <div>
               <a className="hvr-icon-fade" href="https://github.com/kch3coo">

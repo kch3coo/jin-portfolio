@@ -60,7 +60,9 @@ export default class Projects extends Component {
                     <Card.Body>
                       <Card.Title>Aitchl Ltd</Card.Title>
                       <Card.Text>
-                      The design is created by Xuan using Adobe XD. The website is developed using JavaScript, HTML, Saas, AOS framework and Bootstrap framework.
+                        The design is created by Xuan using Adobe XD. The
+                        website is developed using JavaScript, HTML, Saas, AOS
+                        framework and Bootstrap framework.
                       </Card.Text>
                     </Card.Body>
                     <Card.Footer>
@@ -77,14 +79,24 @@ export default class Projects extends Component {
               <div className="text-white-p">
                 {" "}
                 <p>
-                Lead a small team of four from Amind Studio to design and develop a professional landing page for Aitchl Ltd.
+                  Lead a small team of four from Amind Studio to design and
+                  develop a professional landing page for Aitchl Ltd.
                 </p>
                 <p>
-                My Tasks: My main tasks were to communicate with the customer and translate his requirements into detailed instructions. I oversee the design and the entire project construction. I also need to assist team members when they don't know how to build some parts of the website.
+                  My Tasks: My main tasks were to communicate with the customer
+                  and translate his requirements into detailed instructions. I
+                  oversee the design and the entire project construction. I also
+                  need to assist team members when they don't know how to build
+                  some parts of the website.
                 </p>
                 <p>
                   {" "}
-                  The customer has very strict requirements on optimization across different browsers and having SEO enhancement. We had trouble optimizing some layouts on Safari and we need to incorporate SEO along the way. Also, we need to add a language translation function to the website, and it is a new challenge for us.
+                  The customer has very strict requirements on optimization
+                  across different browsers and having SEO enhancement. We had
+                  trouble optimizing some layouts on Safari and we need to
+                  incorporate SEO along the way. Also, we need to add a language
+                  translation function to the website, and it is a new challenge
+                  for us.
                 </p>
                 <h5>Contributors: </h5>
               </div>
@@ -95,10 +107,7 @@ export default class Projects extends Component {
                 <a calssName="contributor" href="https://github.com/rainyuxuan">
                   <FaGithub /> rainyuxuan
                 </a>
-                <a
-                  calssName="contributor"
-                  href="https://github.com/themarkone"
-                >
+                <a calssName="contributor" href="https://github.com/themarkone">
                   <FaGithub /> themarkone{" "}
                 </a>
                 <a
@@ -147,19 +156,12 @@ export default class Projects extends Component {
                 <a calssName="contributor" href="https://github.com/yty25">
                   <FaGithub /> yty25
                 </a>
-                <a
-                  calssName="contributor"
-                  href="https://github.com/alexmai123"
-                >
+                <a calssName="contributor" href="https://github.com/alexmai123">
                   <FaGithub /> alexmai123{" "}
                 </a>
-                <a
-                  calssName="contributor"
-                  href="https://github.com/rainyuxuan"
-                >
+                <a calssName="contributor" href="https://github.com/rainyuxuan">
                   <FaGithub /> rainyuxuan{" "}
                 </a>
-              
               </div>
             </div>
             <div className="col-sm-6">
@@ -170,9 +172,9 @@ export default class Projects extends Component {
                   data-aos-anchor-placement="top-center"
                 >
                   <Card>
-                  <div className="container card-container">
+                    <div className="container card-container">
                       <Carousel>
-                      <Carousel.Item>
+                        <Carousel.Item>
                           <img src={"/screenshots/ut_clubfair1.png"} alt="" />
                         </Carousel.Item>
                         <Carousel.Item>
@@ -184,10 +186,15 @@ export default class Projects extends Component {
                       </Carousel>
                     </div>
                     <Card.Body>
-                      <Card.Title>2020 Non-official UofT Virtual Clubfair Web Platform</Card.Title>
+                      <Card.Title>
+                        2020 Non-official UofT Virtual Clubfair Web Platform
+                      </Card.Title>
                       <Card.Text>
                         <p>
-                        Used JSON Schema to formalize data from different clubs, store all data into a JSON file and used Boostrap and Handlebars.js to display this information onto the web platform.
+                          Used JSON Schema to formalize data from different
+                          clubs, store all data into a JSON file and used
+                          Boostrap and Handlebars.js to display this information
+                          onto the web platform.
                         </p>
                       </Card.Text>
                     </Card.Body>
@@ -274,10 +281,7 @@ export default class Projects extends Component {
                 <a calssName="contributor" href="https://github.com/yty25">
                   <FaGithub /> yty25
                 </a>
-                <a
-                  calssName="contributor"
-                  href="https://github.com/alexmai123"
-                >
+                <a calssName="contributor" href="https://github.com/alexmai123">
                   <FaGithub /> alexmai123{" "}
                 </a>
               </div>
@@ -293,12 +297,11 @@ export default class Projects extends Component {
                 {" "}
                 <p>
                   A freelance project for the company Easy Learning Academy to
-                  develope its static landing page.
+                  develop its static landing page.
                 </p>
                 <p>
-                  My Tasks: My main My Tasks were to design all the web
-                  wireframes that satisfy the client’s standard, and begin
-                  front-end production.
+                  My Tasks: My main tasks were to design the graphics and layout
+                  of the website and developed the front-end of the website.
                 </p>
                 <p>
                   {" "}
@@ -392,9 +395,9 @@ export default class Projects extends Component {
                   Special Olympic Ontario team. We are building the very first
                   product for Special Olympics which supports search with
                   multiple criteria and display of events/ individual athlete
-                  performance. This is a bridge that connects the Special
-                  Olympics athletes to the rest of society since their efforts
-                  and performance now can be heard and seen more often.
+                  performance. This connects the bridge between Special Olympics
+                  athletes and the rest of society since their efforts and
+                  performance can now be heard and seen more often.
                 </p>
                 <p>
                   My Tasks: Understand the partner's needs. Organize priorities
@@ -443,16 +446,15 @@ export default class Projects extends Component {
               <div className="text-white-p">
                 {" "}
                 <p>
-                  Second place winner for UofT Hacks VII 2020. Fashion has
-                  always been a world that seemed far away from tech.
-                  “Stylelist” is able to bridge this gap by understanding users’
-                  fashion within a few swipes and makes personalized suggestions
-                  for their daily outfits.
+                  Challenges: Building the project based on industry-level
+                  standards and processes. Constant communication with the
+                  partner. Making frequent deliverables based on the scrum
+                  process. Followed the Agile development process.
                 </p>
                 <p>
                   My Tasks: Design the overall outlook of the website, all
-                  graphic related works including poster, icons, and logo. Data
-                  scraping using UiPath. React frontend development.
+                  graphics-related works including posters, icons, and logos.
+                  Data scraping using UiPath. React frontend development.
                 </p>
                 <p>
                   {" "}
@@ -604,7 +606,7 @@ export default class Projects extends Component {
                 <p>
                   My Tasks: Building all the layouts, designing the structure of
                   our project, and implementing the scoring systems and gesture
-                  detectors..
+                  detectors.
                 </p>
                 <p>
                   {" "}
@@ -646,8 +648,8 @@ export default class Projects extends Component {
                   and interactive front-end, we are able to reduce the
                   difficulty and increase the efficiency of project management
                   while making the process interactive and fun. Project managers
-                  can create teams, and assign My Tasks to project contributors
-                  and look at the project status in a simple way.
+                  can create teams, and assign tasks to project contributors and
+                  look at the project status in a simple way.
                 </p>
                 <p>
                   My Tasks: Graphic design, Front-end Development, design and
