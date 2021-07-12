@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import "./TopNav.css";
 import logo from "../../assets/img/black_logo.svg";
-import resume from "../../assets/img/resume.pdf";
 import { Link, animateScroll as scroll } from "react-scroll";
 export default class TopNavbar extends Component {
   render() {
@@ -41,8 +40,8 @@ export default class TopNavbar extends Component {
               </NavDropdown.Item>
             </NavDropdown> */}
             <Link
-            className="nav-item nav-link"
-              activeClass="active"
+              className="nav-item nav-link"
+              activeClass=""
               to="aboutme"
               spy={true}
               smooth={true}
@@ -54,8 +53,8 @@ export default class TopNavbar extends Component {
             </Link>
 
             <Link
-            className="nav-item nav-link"
-              activeClass="active"
+              className="nav-item nav-link"
+              activeClass=""
               to="projects"
               spy={true}
               smooth={true}
@@ -67,8 +66,8 @@ export default class TopNavbar extends Component {
             </Link>
 
             <Link
-            className="nav-item nav-link"
-              activeClass="active"
+              className="nav-item nav-link"
+              activeClass=""
               to="designs"
               spy={true}
               smooth={true}
@@ -76,12 +75,12 @@ export default class TopNavbar extends Component {
               duration={900}
               onSetActive={this.handleSetActive}
             >
-             Designs
+              Designs
             </Link>
 
             <Link
               className="nav-item nav-link"
-              activeClass="active"
+              activeClass=""
               to="info"
               spy={true}
               smooth={true}
@@ -91,6 +90,14 @@ export default class TopNavbar extends Component {
             >
               Contact Info
             </Link>
+
+            <Nav.Link
+              className="nav-item nav-link"
+              href={"/downloads/resume.pdf"}
+              download
+            >
+              Resume
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
 
